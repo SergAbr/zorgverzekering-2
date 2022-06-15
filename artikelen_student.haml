@@ -1,0 +1,390 @@
+<!doctype html>
+%head
+  %meta{:charset => "utf-8"}/
+  %title Zorgverzekering.net
+  %meta{:content => "", :name => "description"}/
+  %meta{:content => "", :name => "author"}/
+  %meta{:content => "width=device-width", :name => "viewport"}/
+  %link{:href => "css/styles.css", :rel => "stylesheet", :type => "text/css"}/
+%body
+  #page
+    #header
+      .container
+        .header-menu
+          .header-navigation-left
+            %ul
+              %li
+                %a{:href => "#"} Home
+              %li
+                %a{:href => "#"} Jongeren
+              %li
+                %a.activated{:href => "#"} Studenten
+              %li
+                %a{:href => "#"} Starter
+              %li
+                %a{:href => "#"} Gezin
+              %li
+                %a{:href => "#"} 50+
+          .header-navigation-right
+            %ul
+              %li
+                %a{:href => "#"} Artikelen
+              %li
+                %a{:href => "#"} FAQ
+        .header-promotion
+          .logo-text
+            %a{:href => "#"} Zorgverzekering.net
+          %img{:alt => "homepage logo", :src => "img/homepage_logo_studenten.png"}/
+          %p.student
+            Start met het vergelijken
+            %br>/
+            en vind de goedkoopste
+            %br>/
+            studenten zorgverzekering
+          %a.btn.green.student{:href => "#"} Studenten zorgverzekering vergelijken
+    #body
+      .container
+        .central-block
+          .selective
+            .col
+              %p Wijzig hier uw dekking
+              %p.regular De wijzigingen worden automatisch toegepast in de tabel hieronder.
+              %p Eigen risico
+              .styled-select
+                %select{:name => "Eigen risico"}
+                  %option{:value => "1"} &#8364 350
+                  %option{:value => "2"} &#8364 450
+                  %option{:value => "3"} &#8364 550
+            .col
+              %p Tandarts vanaf 18 jaar
+              .styled-select
+                %select{:name => "Tandarts vanaf 18 jaar"}
+                  %option{:value => "1"} Niet verzegerd
+                  %option{:value => "2"} Niet verzegerd2
+                  %option{:value => "3"} Niet verzegerd3
+              %p Bril of lenzen
+              .styled-select
+                %select{:name => "Bril of lenzen"}
+                  %option{:value => "1"} &#8364 50 per 2 jaar
+                  %option{:value => "2"} &#8364 60 per 2 jaar
+                  %option{:value => "3"} &#8364 70 per 2 jaar
+              %p Buitenland
+              .styled-select
+                %select{:name => "Buitenland"}
+                  %option{:value => "1"} Ja
+                  %option{:value => "2"} Ja2
+                  %option{:value => "3"} Ja3
+            .col
+              %p Fysiotherapie
+              .styled-select
+                %select{:name => "Fysiotherapie"}
+                  %option{:value => "1"} Geen
+                  %option{:value => "2"} Geen2
+                  %option{:value => "3"} Geen3
+              %p Alternatieve geneeswijzen
+              .styled-select
+                %select{:name => "Alternatieve geneeswijzen"}
+                  %option{:value => "1"} Niet verzekerd
+                  %option{:value => "2"} Niet verzekerd2
+                  %option{:value => "3"} Niet verzekerd3
+              %p Psychologisch
+              .styled-select
+                %select{:name => "Psychologisch"}
+                  %option{:value => "1"} Niet verzekerd
+                  %option{:value => "2"} Niet verzekerd2
+                  %option{:value => "3"} Niet verzekerd3
+          .central-list
+            %table.table
+              %thead
+                %tr
+                  %th Verzekeraar
+                  %th Actie
+                  %th Prijs
+                  %th Score
+                  %th
+                    Vrije
+                    %br>/
+                    zorgkeuze
+                  %th Direct aufsluiten
+              %tbody
+                %tr
+                  %td.logo
+                    %img{:alt => "logo1", :src => "img/table_logo1.png"}/
+                  %td.actie
+                    \&#8364 75
+                    %br>/
+                    cashback
+                  %td.price &#8364 71,25
+                  %td.score
+                    %img{:alt => "score", :src => "img/score.png"}/
+                  %td.check
+                    %img{:alt => "check", :src => "img/check.png"}/
+                  %td
+                    %a.btn.red{:href => "#"} Info & Afsluiten
+                %tr
+                  %td.logo
+                    %img{:alt => "logo2", :src => "img/table_logo2.png"}/
+                  %td
+                  %td.price &#8364 73,50
+                  %td.score
+                    %img{:alt => "score", :src => "img/score.png"}/
+                  %td.check
+                  %td
+                    %a.btn.red{:href => "#"} Info & Afsluiten
+                %tr
+                  %td.logo
+                    %img{:alt => "logo3", :src => "img/table_logo3.png"}/
+                  %td.actie
+                  %td.price &#8364 75,92
+                  %td.score
+                    %img{:alt => "score", :src => "img/score.png"}/
+                  %td.check
+                  %td
+                    %a.btn.red{:href => "#"} Info & Afsluiten
+                %tr
+                  %td.logo
+                    %img{:alt => "logo4", :src => "img/table_logo4.png"}/
+                  %td.actie
+                  %td.price &#8364 78,43
+                  %td.score
+                    %img{:alt => "score", :src => "img/score.png"}/
+                  %td.check
+                  %td
+                    %a.btn.red{:href => "#"} Info & Afsluiten
+                %tr
+                  %td.logo
+                    %img{:alt => "logo5", :src => "img/table_logo5.png"}/
+                  %td.actie
+                  %td.price &#8364 91,63
+                  %td.score
+                    %img{:alt => "score", :src => "img/score.png"}/
+                  %td.check
+                  %td
+                    %a.btn.red{:href => "#"} Info & Afsluiten
+                %tr
+                  %td.logo
+                    %img{:alt => "logo6", :src => "img/table_logo6.png"}/
+                  %td.actie
+                  %td.price &#8364 93,00
+                  %td.score
+                    %img{:alt => "score", :src => "img/score.png"}/
+                  %td.check
+                  %td
+                    %a.btn.red{:href => "#"} Info & Afsluiten
+                %tr
+                  %td.logo
+                    %img{:alt => "logo7", :src => "img/table_logo7.png"}/
+                  %td.actie
+                  %td.price &#8364 100,43
+                  %td.score
+                    %img{:alt => "score", :src => "img/score.png"}/
+                  %td.check
+                  %td
+                    %a.btn.red{:href => "#"} Info & Afsluiten
+                %tr
+                  %td.logo
+                    %img{:alt => "logo7", :src => "img/table_logo7.png"}/
+                  %td.actie
+                  %td.price &#8364 100,43
+                  %td.score
+                    %img{:alt => "score", :src => "img/score.png"}/
+                  %td.check
+                  %td
+                    %a.btn.red{:href => "#"} Info & Afsluiten
+                %tr
+                  %td.logo
+                    %img{:alt => "logo7", :src => "img/table_logo7.png"}/
+                  %td.actie
+                  %td.price &#8364 100,43
+                  %td.score
+                    %img{:alt => "score", :src => "img/score.png"}/
+                  %td.check
+                  %td
+                    %a.btn.red{:href => "#"} Info & Afsluiten
+                %tr
+                  %td.logo
+                    %img{:alt => "logo7", :src => "img/table_logo7.png"}/
+                  %td.actie
+                  %td.price &#8364 100,43
+                  %td.score
+                    %img{:alt => "score", :src => "img/score.png"}/
+                  %td.check
+                  %td
+                    %a.btn.red{:href => "#"} Info & Afsluiten
+        .bottom-body.artikelen
+          .blue-container
+            %p
+              %span Snel een Studenten Zorgverzekering
+            %p
+              Een goede studentenzorgverzekering vinden kan een lastige klus zijn. Veel zorgverzekeraars bieden namelijk speciale zorgverzekeringen voor s
+              tudenten aan. Daarnaast moet je rekening houden met je eigen risico, welke dekkingen je wil, of je een aanvullende tandartsverzekering
+              wil en ga zo maar door.
+            %p
+              Gelukkig hebben wij de goedkoopste studenten zorgverzekering op een rij gezet om eenvoudig te vergelijken op prijs en dekking. Zo kun je
+              eenvoudig honderden euro's per jaar besparen!
+          .post-boxes
+            .col
+              .static-box
+                %h3 Static text 1
+                %p
+                  Rios doluptibeat. Harcien daniatiuntis earum volorendam cullam
+                  ex enis quo te et, sincia doluptatur andae. Ducipsanto tem ressun
+                  dusam aut que officabore volorpos incte nonsequos ilitatquam re
+                  sinus corecus dantur modis simus vendit faccati vel inus dolorror
+                  aut velitatum fugias.
+                %p
+                  Magniminusda qui int ma volorias sunt, volupta expliqu ossedipsa
+                  voles nisque dolupta taecte solupta quoditatem. Ro bearum qui
+                  non non eum sunt est, soluptatin plabo. Bis nis et acepedi genda
+                  erum non plam quo mi, ommolen duntect aspeditis sin re expliqu
+                  aspelentur, cullam adi temqui audignia culparc hitaturibus eatus,
+                  ius eum eosanimi, cones ad ulpa qui vitiori ius si reped ulparchil?
+              .static-box
+                %h3 Static text 4
+                %p
+                  Rios doluptibeat. Harcien daniatiuntis earum volorendam cullam
+                  ex enis quo te et, sincia doluptatur andae. Ducipsanto tem ressun
+                  dusam aut que officabore volorpos incte nonsequos ilitatquam re
+                  sinus corecus dantur modis simus vendit faccati vel inus dolorror
+                  aut velitatum fugias.
+                %p
+                  Magniminusda qui int ma volorias sunt, volupta expliqu ossedipsa
+                  voles nisque dolupta taecte solupta quoditatem. Ro bearum qui
+                  non non eum sunt est, soluptatin plabo. Bis nis et acepedi genda
+                  erum non plam quo mi, ommolen duntect aspeditis sin re expliqu
+                  aspelentur, cullam adi temqui audignia culparc hitaturibus eatus,
+                  ius eum eosanimi, cones ad ulpa qui vitiori ius si reped ulparchil?
+                %p
+                  Em aut arum ut moluptatissi bearcid ellacca borescil ipsusam num
+                  est laceatur sandit quodit ea volupta ditisquassin nusa debit aci au
+                  te que parunt res alit lacea sit que noneceaqui blaccus ernatempo,
+                  quatem aruptatur sintiis dolupta quamus.
+                  Ditaturi dolupta tiberro ommodis nem dolupta estiis dolore et ute
+                  nitas everchil eum, sunt idus nectem qui as aliciat. Totatior am vit
+                  qui sum res aut alique presectectur seniendita quiaes si aut late
+                  volentibus siment.
+            .col
+              .static-box
+                %h3 Static text 2
+                %p
+                  Rios doluptibeat. Harcien daniatiuntis earum volorendam cullam
+                  ex enis quo te et, sincia doluptatur andae. Ducipsanto tem ressun
+                  dusam aut que officabore volorpos incte nonsequos ilitatquam re
+                  sinus corecus dantur modis simus vendit faccati vel inus dolorror
+                  aut velitatum fugias.
+              .static-box
+                %h3 Static text 3
+                %p
+                  Rios doluptibeat. Harcien daniatiuntis earum volorendam cullam
+                  ex enis quo te et, sincia doluptatur andae. Ducipsanto tem ressun
+                  dusam aut que officabore volorpos incte nonsequos ilitatquam re
+                  sinus corecus dantur modis simus vendit faccati vel inus dolorror
+                  aut velitatum fugias.
+                %p
+                  Quis et eum aut harit odigenis eicaestius, consendi omnimilia nos,
+                  omnimag natiscid quiaeptas ame consedit voloris pliciet, ilibus ex.
+              .static-box
+                %h3 Static text 5
+                %p
+                  Rios doluptibeat. Harcien daniatiuntis earum volorendam cullam
+                  ex enis quo te et, sincia doluptatur andae. Ducipsanto tem ressun
+                  dusam aut que officabore volorpos incte nonsequos ilitatquam re
+                  sinus corecus dantur modis simus vendit faccati vel inus dolorror
+                  aut velitatum fugias.
+                %p
+                  Quis et eum aut harit odigenis eicaestius, consendi omnimilia nos,
+                  omnimag natiscid quiaeptas ame consedit voloris pliciet, ilibus ex.
+          .container
+            .col
+              .static-box.bottom
+                %h3 Artikelen
+                %ul
+                  %li
+                    %a{:href => "#"} Artikelen student 1
+                  %li
+                    %a{:href => "#"} Artikelen student 2
+                  %li
+                    %a{:href => "#"} Artikelen student 3
+                  %li
+                    %a{:href => "#"} Artikelen student 4
+                  %li
+                    %a{:href => "#"} Artikelen student 5
+            .col
+              .static-box.bottom.right
+                %h3 Nieuws
+                %ul
+                  %li
+                    %a{:href => "#"} Nieuws student 1
+                  %li
+                    %a{:href => "#"} Nieuws student 2
+                  %li
+                    %a{:href => "#"} Nieuws student 3
+                  %li
+                    %a{:href => "#"} Nieuws student 4
+                  %li
+                    %a{:href => "#"} Nieuws student 5
+          .bottom-help.bottom-box.cols
+            .col
+              %p.title Hulp nodig?
+              .info
+                %p.tel 012-345 67 89
+                %p.adr
+                  Maandag t/m vrijdag van 09.00 - 17.00
+                  %br>/
+                  info@zorgverzekering.net
+            .col
+              %p.title Onze voordelen
+              .info.list
+                %ul
+                  %li Simpel vergelijken - geen gedoe!
+                  %li Binnen 1 minuut een zorgverzekering
+                  %li Bespaar veel geld
+                  %li Vergelijken op prijs en dekking
+            .col
+              %p.title Premie Alert 2013
+              .info.email
+                %p
+                  Als eerste op de hoogte van de beste premie?
+                  %br>/
+                  Laat je e-mailadres achter!
+                %input.span3{:placeholder => "Jouw e-mailadres", :required => "", :type => "email"}/
+                %a.btn.red{:href => "#"} Houd me op de hoogte!
+    #footer
+      .container
+        .footer_navigation
+          %ul
+            %li
+              %a{:href => "#"} Home
+            %li
+              %a{:href => "#"} Zorgverzekering
+            %li
+              %a{:href => "#"} Vergelijken
+            %li
+              %a{:href => "#"} Studenten
+            %li
+              %a{:href => "#"} Jongeren
+            %li
+              %a{:href => "#"} Artikelen
+            %li
+              %a{:href => "#"} Nieuws
+            %li
+              %a{:href => "#"} FAQ
+            %li
+              %a{:href => "#"} Snel naar
+            %li
+              %a{:href => "#"} Contact
+            %li
+              %a{:href => "#"} Sitemap
+        .footer_social
+          %ul
+            %li
+              %a{:href => "#"}
+                %img{:alt => "social1", :src => "img/footer_social1.png"}/
+            %li
+              %a{:href => "#"}
+                %img{:alt => "social2", :src => "img/footer_social2.png"}/
+            %li
+              %a{:href => "#"}
+                %img{:alt => "social3", :src => "img/footer_social3.png"}/
+  %script{:src => "js/bootstrap.min.js"}
+  %script{:src => "js/script.js"}

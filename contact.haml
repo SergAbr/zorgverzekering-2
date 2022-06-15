@@ -1,0 +1,132 @@
+<!doctype html>
+%head
+  %meta{:charset => "utf-8"}/
+  %title Zorgverzekering.net
+  %meta{:content => "", :name => "description"}/
+  %meta{:content => "", :name => "author"}/
+  %meta{:content => "width=device-width", :name => "viewport"}/
+  %link{:href => "css/styles.css", :rel => "stylesheet", :type => "text/css"}/
+%body
+  #page
+    #header
+      .container
+        .header-menu
+          .header-navigation-left
+            %ul
+              %li
+                %a{:href => "#"} Home
+              %li
+                %a{:href => "#"} Jongeren
+              %li
+                %a{:href => "#"} Studenten
+              %li
+                %a{:href => "#"} Starter
+              %li
+                %a{:href => "#"} Gezin
+              %li
+                %a{:href => "#"} 50+
+          .header-navigation-right
+            %ul
+              %li
+                %a{:href => "#"} Artikelen
+              %li
+                %a{:href => "#"} FAQ
+        .header-promotion
+          .logo-text
+            %a{:href => "#"} Zorgverzekering.net
+          %img{:alt => "homepage logo", :src => "img/homepage_logo.png"}/
+          %p.nieuwslos Vind gemakkelijk en snel de zorgverzekering die bij je past
+          %a.btn.green{:href => "#"} Zorgverzekering vergelijken
+    #body
+      .container.post
+        .post
+          %h3 Contact
+          %p
+            Rios doluptibeat. Harcien daniatiuntis earum volorendam cullam ex enis quo te et, sincia doluptatur andae. Ducipsanto tem ressundusam aut
+            que officabore volorpos incte nonsequos ilitatquam re sinus corecus dantur modis simus vendit faccati vel inus dolorror aut velitatum fugias
+            magniminusda qui int ma volorias sunt, volupta expliqu ossedipsa voles nisque dolupta taecte solupta quoditatem. Ro bearum qui non non
+            eum sunt est, soluptatin plabo. Bis nis et acepedi gendaerum non plam quo mi, ommolen duntect aspeditis sin re expliqu aspelentur, cullam
+            adi temqui audignia culparc hitaturibus eatus, ius eum eosanimi, cones ad ulpa qui vitiori ius si reped ulparchil int eos nem accullatur?
+            Quis et eum aut harit odigenis eicaestius, consendi omnimilia nost, omnimag natiscid quiaeptas ame consedit voloris pliciet, ilibus ex etur.
+          %br/
+          %h3 Adresgegevens:
+          %p
+            Bedrijf Xbr
+            = succeed "Straat" do
+              %br/
+            1
+            %br>/
+            1111 AA Zeistbr
+            %br/
+            = succeed "Tel:" do
+              %br/
+            012-3456789
+            %br>/
+            E-mail: info@bedrijfx.nl
+        .author.contact
+        .bottom-body
+          .bottom-help.bottom-box.cols
+            .col
+              %p.title Hulp nodig?
+              .info
+                %p.tel 012-345 67 89
+                %p.adr
+                  Maandag t/m vrijdag van 09.00 - 17.00
+                  %br>/
+                  info@zorgverzekering.net
+            .col
+              %p.title Onze voordelen
+              .info.list
+                %ul
+                  %li Simpel vergelijken - geen gedoe!
+                  %li Binnen 1 minuut een zorgverzekering
+                  %li Bespaar veel geld
+                  %li Vergelijken op prijs en dekking
+            .col
+              %p.title Premie Alert 2013
+              .info.email
+                %p
+                  Als eerste op de hoogte van de beste premie?
+                  %br>/
+                  Laat je e-mailadres achter!
+                %input.span3{:placeholder => "Jouw e-mailadres", :required => "", :type => "email"}/
+                %a.btn.red{:href => "#"} Houd me op de hoogte!
+    #footer
+      .container
+        .footer_navigation
+          %ul
+            %li
+              %a{:href => "#"} Home
+            %li
+              %a{:href => "#"} Zorgverzekering
+            %li
+              %a{:href => "#"} Vergelijken
+            %li
+              %a{:href => "#"} Studenten
+            %li
+              %a{:href => "#"} Jongeren
+            %li
+              %a{:href => "#"} Artikelen
+            %li
+              %a{:href => "#"} Nieuws
+            %li
+              %a{:href => "#"} FAQ
+            %li
+              %a{:href => "#"} Snel naar
+            %li
+              %a{:href => "#"} Contact
+            %li
+              %a{:href => "#"} Sitemap
+        .footer_social
+          %ul
+            %li
+              %a{:href => "#"}
+                %img{:alt => "social1", :src => "img/footer_social1.png"}/
+            %li
+              %a{:href => "#"}
+                %img{:alt => "social2", :src => "img/footer_social2.png"}/
+            %li
+              %a{:href => "#"}
+                %img{:alt => "social3", :src => "img/footer_social3.png"}/
+  %script{:src => "js/bootstrap.min.js"}
+  %script{:src => "js/script.js"}
